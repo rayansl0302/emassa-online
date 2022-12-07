@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { LocalizacaoComponent } from './localizacao/localizacao.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastroComponent
+    CadastroComponent,
+    HeaderComponent,
+    HomeComponent,
+    LocalizacaoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

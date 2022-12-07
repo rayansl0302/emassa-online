@@ -1,0 +1,163 @@
+.sec-footer {
+  background-color: #d05300 !important;
+  width: 100%;
+  color: #ffe57f;
+  height: 260px;
+  margin-top: 50px;
+  .mascote-footer {
+    margin-top: 5px;
+    img {
+      height: 250px;
+      display: flex;
+    }
+  }
+  .redes-sociais {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .insta {
+      margin-top: 10px;
+      display: flex;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+      .subtitle {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 700;
+
+        a{
+          text-decoration: none !important;
+          color:#ffe57f;
+        }
+      }
+    }
+    .face {
+      display: flex;
+      width: 100%;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+      .subtitle {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+    .whats {
+      display: flex;
+      width: 100%;
+      height: 30px;
+      width: 100%;
+      justify-content: center;
+      .subtitle {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+  .contato {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    .telefone {
+      margin-top: 10px;
+      display: flex;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+
+      .subtitle {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+    .email {
+      display: flex;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+
+      .subtitle {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+///breakpoint
+@media (max-width: 768px) {
+  .mascote-footer {
+    display: none;
+  }
+  .redes-sociais {
+    h2 {
+      font-size: 20px !important;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .insta {
+      height: 20px !important;
+      justify-content: normal !important;
+
+      .subtitle {
+        font-size: 15px !important;
+        a {
+          color: transparent !important;
+          text-decoration: none !important;
+        }
+      }
+    }
+    .face {
+      height: 20px !important;
+      justify-content: normal !important;
+
+      .subtitle {
+        font-size: 15px !important;
+      }
+    }
+    .whats {
+      height: 20px !important;
+      justify-content: normal !important;
+
+      .subtitle {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .contato {
+    h2 {
+      font-size: 20px !important;
+      text-align: center;
+      font-weight: 700;
+    }
+    .telefone {
+      justify-content: normal !important;
+      height: 20px !important;
+      .subtitle {
+        font-size: 15px !important;
+      }
+    }
+    .email {
+      height: 20px !important;
+      justify-content: normal !important;
+
+      .subtitle {
+        font-size: 15px !important;
+      }
+    }
+  }
+}
